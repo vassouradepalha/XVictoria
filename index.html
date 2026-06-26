@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>XV da Victoria</title>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- TELA PRINCIPAL -->
+  <section class="hero">
+    <div class="overlay">
+      <h1>Victoria 15 anos</h1>
+      <p>Você está convidado(a) para esse momento especial 💜</p>
+
+      <button onclick="abrirInfos()">Ver informações</button>
+    </div>
+  </section>
+
+  <!-- INFORMAÇÕES -->
+  <section id="infos" class="infos hidden">
+    <h2>Informações da Festa</h2>
+
+    <p>📅 Data: 15/08/2026 (sábado)</p>
+    <p>📍 Local: Minha casa</p>
+    <p>🎉 Vai ter: churrasco, música, karaokê, fotos e muita comida!</p>
+
+    <button onclick="abrirPresentes()">Ideias de presente 🎁</button>
+  </section>
+
+  <!-- PRESENTES -->
+  <section id="presentes" class="presentes hidden">
+    <h2>Ideias de Presente 🎁</h2>
+
+    <ul>
+      <li>Roupas</li>
+      <li>Perfume</li>
+      <li>Maquiagem</li>
+      <li>Cartão com mensagem 💌</li>
+      <li>Ou algo que você ache a minha cara ✨</li>
+    </ul>
+
+    <button onclick="voltar()">Voltar</button>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
